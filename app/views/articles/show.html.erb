@@ -7,31 +7,5 @@
   <%= @article.text %>
 </p>
 
-<h3>コメント</h3>
-<% @article.comments.each do |comment| %>
-  <p>
-    <h4><%= comment.commenter %></h4>
-  </p>
-
-  <p>
-    <%= comment.body %>
-  </p>
-<% end %>
-
-<h3>コメントの追加</h3>
-<%= form_with(model: [ @article, @article.comments.build ], local: true) do |form| %>
-  <p>
-    <%= form.label :名前 %><br>
-    <%= form.text_field :commenter %>
-  </p>
-  <p>
-    <%= form.label :コメント %><br>
-    <%= form.text_area :body %>
-  </p>
-  <p>
-    <%= form.submit %>
-  </p>
-<% end %>
-
 <%= link_to '編集', edit_article_path(@article) %> |
 <%= link_to '戻る', root_path %>
