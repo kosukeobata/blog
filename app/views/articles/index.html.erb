@@ -2,13 +2,8 @@
 <%= link_to '新規投稿', new_article_path %>
 <body class="container"> 
 <% @articles.each do |article| %>
-  <h2><%= article.title %></h2>
+  <h2><%= link_to "#{article.title}", article_path(article) %></h2>
   <p><%= article.text %></p>
-  <%= link_to '詳細', article_path(article) %>
-  <%= link_to '編集', edit_article_path(article) %>
-  <%= link_to '削除', article_path(article),
-              method: :delete,
-              data: { confirm: 'ホンマにええの?' } %>
 <% end %>
 </body>
 </html>
