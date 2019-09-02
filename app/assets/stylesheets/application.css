@@ -15,13 +15,33 @@
  */
 .top-menu {
 	padding-left: 20px;
+	font-family: "Helvetica Neue";
+	font-size: 24px;
+	color: white;
+	background-color: #284AB9;
+	margin-bottom: 1em;
+}
+
+.top-menu p {
+	margin: unset;
+	padding: 0.3em;
+}
+
+.top-menu a {
+	color: white;
+}
+
+.top-menu a:visited {
+	text-decoration: none;
+	color: white;
 }
 
 .main-container {
-	width: 500px;
+	width: 60%;
 	text-align: center;
 	margin: auto;
 }
+
 
 body {
 	margin: unset;
@@ -29,12 +49,13 @@ body {
 
 h2 {
   color: #364e96;/*文字色*/
-  padding: 0.5em 0;/*上下の余白*/
+  padding: 1em 1em 0.5em 1em;/*上下の余白*/
   margin: unset;
   /* border-top: solid 2px #364e96; */ /*上線*/
   /* border-bottom: solid 2px #364e96; */ /*下線*/
 }
 
-a {
-	text-decoration: none;
+
+p {
+	color: #707070;
 }

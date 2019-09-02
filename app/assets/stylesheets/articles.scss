@@ -1,4 +1,24 @@
-// Place all the styles related to the Articles controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+a {
+  text-decoration: none;
+  color: #364e96;
+}
 
+.article-index {
+  background-color: #F7F7F7;
+  margin-bottom: 3em;
+  padding-bottom: 2em;
+}
+
+.article-description {
+	margin-bottom: 2em;
+}
+
+.article-read-more {
+  padding: 0.6em;
+  border: thin  solid #909090;
+}
+
+.article-read-more a {
+  text-decoration: none;
+  color: black; 
+}
