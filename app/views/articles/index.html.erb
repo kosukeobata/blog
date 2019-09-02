@@ -1,8 +1,13 @@
 <body class="container"> 
+<%= form_tag(articles_path, :method => 'get') do %>
+  <%= text_field_tag :search %>
+  <%= submit_tag '検索', :name => nil ,:id=>"search-btn"%>
+<% end %>
+
 <% @articles.each do |article| %>
   <div class="article-index">
     <h2><%= link_to "#{article.title}", article_path(article) %></h2>
-    <p class="article-description"><%= article.text %></p>
+    <p class="article-description"><%= article.text.truncate(60) %></p>
     <span class="article-read-more"><%= link_to "Read More", article_path(article) %></span>
   </div>
 <% end %>
