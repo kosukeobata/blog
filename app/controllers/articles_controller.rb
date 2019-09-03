@@ -5,6 +5,7 @@ class ArticlesController < ApplicationController
 
   def show
     @article = Article.find(params[:id])
+    @recent_list = Article.where('id != ?', params[:id]).order(id: :desc).limit(3)
   end
 
   def edit

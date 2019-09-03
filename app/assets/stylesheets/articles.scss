@@ -31,6 +31,11 @@ ul li {
   padding: 0.5em 0 1em 0;
 }
 
+.article-detail h4 {
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+
 .article-description {
 	margin-bottom: unset;
 }
@@ -106,6 +111,15 @@ ul li {
   display: block;
   font-size: small;
   text-align: right;
+}
+
+.recent-article-list {
+  padding: unset;
+}
+
+.recent-article-list li {
+  padding: unset;
+  margin-right: 1em;
 }
 
 #article_text {
