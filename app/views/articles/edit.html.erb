@@ -1,8 +1,9 @@
 <h1>編集モード</h1>
- 
+<div class="article-edit">
 <%= render 'form' %>
  
 <%= link_to '戻る', root_path %>
 <%= link_to '削除', article_path(@article),
             method: :delete,
             data: { confirm: 'ホンマにええの?' } %>
+</div>

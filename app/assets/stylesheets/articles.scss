@@ -22,6 +22,10 @@ ul li {
   padding: 1em 1em 0.5em 1em;/*上下の余白*/
 }
 
+.article-detail h2 {
+  padding: 0.5em 0 1em 0;
+}
+
 .article-description {
 	margin-bottom: 2em;
   padding: 0 1em 0.5em 1em;
@@ -38,6 +42,11 @@ ul li {
 }
 
 .article-detail {
+  text-align: left;
+  margin-bottom: 2em;
+}
+
+.article-edit {
   text-align: left;
 }
 

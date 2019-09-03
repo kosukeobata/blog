@@ -54,12 +54,15 @@ body {
 h2 {
   color: #364e96;/*文字色*/
   margin: unset;
-  /* border-top: solid 2px #364e96; */ /*上線*/
-  /* border-bottom: solid 2px #364e96; */ /*下線*/
 }
 
 
 p {
+	color: #707070;
+	white-space: pre-wrap;
+}
+
+span {
 	color: #707070;
 	white-space: pre-wrap;
 }
