@@ -9,13 +9,17 @@ ul li {
 }
 
 .pagination {
-  float: right;
+  text-align: right;
 }
 
 .article-index {
   background-color: #F7F7F7;
   margin-bottom: 3em;
   padding-bottom: 2em;
+}
+
+.article-index h2 {
+  padding: 1em 1em 0.5em 1em;/*上下の余白*/
 }
 
 .article-description {
@@ -31,6 +35,10 @@ ul li {
 .article-read-more a {
   text-decoration: none;
   color: black; 
+}
+
+.article-detail {
+  text-align: left;
 }
 
 #search {
