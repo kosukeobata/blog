@@ -11,7 +11,9 @@
       <span class="articles-cal"><i class="fas fa-calendar-alt m1"></i><%= article.created_at.to_s(:ymd) %></span>
       <p class="article-description"><%= article.text.truncate(60) %></p>
     </div>
-    <span class="article-read-more"><%= link_to "Read More", article_path(article) %></span>
+    <%= link_to article_path(article) do %>
+    <div class="article-read-more">Read More</div>
+    <% end %>
   </div>
 <% end %>
 <%= will_paginate @articles, previous_label: '&#8592; &nbsp;前', next_label: '次 &#8594;', inner_window: 1, outer_window: 0 %>
