@@ -15,18 +15,16 @@
     </div>
   <% end %>
  
-  <p>
-    <%= form.label :タイトル %><br>
-    <%= form.text_field :title %>
-  </p>
- 
-  <p>
-    <%= form.label :本文 %><br>
-    <%= form.text_area :text %>
-  </p>
- 
-  <p>
-    <%= form.submit %>
-  </p>
+  <div class="form-title-area">
+    <%= form.label :タイトル, :class=>"form-title" %>
+    <%= form.text_field :title, :class=>"input" %>
+    <div class ="underline"></div>
+  </div>
+
+  <div class="form-text-area">
+    <%= form.label :本文, :class=>"form-text" %><br>
+    <%= form.text_area :text %><br>
+  </div>
+    <%= form.submit :class=>"article-submit"%>
  
 <% end %>

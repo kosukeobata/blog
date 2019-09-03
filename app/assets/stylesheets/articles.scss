@@ -50,6 +50,62 @@ ul li {
   text-align: left;
 }
 
+.form-title {
+  font-size: 24px;
+}
+
+.input {
+  margin-top: 0.5em;
+  width: -webkit-fill-available;
+  height: 30px;
+  font-size: 16px;
+  border: none;
+  outline: 0;
+  border-bottom: 1px solid #d1d5db;
+}
+
+.underline {
+  width: -webkit-fill-available;
+  height: 2px;
+  background: skyBlue;
+  transform-origin: center center;
+  transform: scaleX(0);
+  transition: transform 0.18s ease-out;
+}
+
+.input:focus + .underline {
+    transform: scaleX(1);
+  }
+
+.form-text {
+  font-size: 24px;
+}
+
+.form-text-area {
+  margin-top: 2em;
+}
+
+.article-submit {
+    margin-top: 1.5em;
+    width: 5em;
+    height: 2em;
+    border-radius: 2px;
+    background: #364e96;
+    color: #fff;
+    font-size: 16px;
+}
+
+#article_text {
+    margin-top: 0.5em;
+    width: -webkit-fill-available;
+    height: 25em;
+    font-size: 16px;
+    border: none;
+    outline: 0;
+    border-bottom: 1px solid #d1d5db;
+    resize: none;
+}
+
 #search {
   outline:0;  
   height:3em;
