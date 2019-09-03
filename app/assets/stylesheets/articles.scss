@@ -8,6 +8,10 @@ ul li {
   padding: 0.2em
 }
 
+.m1 {
+  margin-right: 0.5em;  
+}
+
 .pagination {
   text-align: right;
 }
@@ -18,8 +22,9 @@ ul li {
   padding-bottom: 2em;
 }
 
-.article-index h2 {
-  padding: 1em 1em 0.5em 1em;/*上下の余白*/
+.article-info {
+  text-align: left;
+  padding: 2em;
 }
 
 .article-detail h2 {
@@ -27,13 +32,15 @@ ul li {
 }
 
 .article-description {
-	margin-bottom: 2em;
-  padding: 0 1em 0.5em 1em;
+	margin-bottom: unset;
 }
 
 .article-read-more {
   padding: 0.6em;
+  text-align: center;
   border: thin  solid #909090;
+  display: block;
+  margin: 0 30% 0 30%;
 }
 
 .article-read-more a {
@@ -93,6 +100,12 @@ ul li {
     background: #364e96;
     color: #fff;
     font-size: 16px;
+}
+
+.articles-cal {
+  display: block;
+  font-size: small;
+  text-align: right;
 }
 
 #article_text {

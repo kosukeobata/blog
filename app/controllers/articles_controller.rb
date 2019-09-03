@@ -1,6 +1,6 @@
 class ArticlesController < ApplicationController
   def index
-    @articles = Article.paginate(page: params[:page], per_page: 5).search(params[:search])
+    @articles = Article.paginate(page: params[:page], per_page: 5).search(params[:search]).order(id: :desc)
   end
 
   def show

@@ -6,8 +6,11 @@
 
 <% @articles.each do |article| %>
   <div class="article-index">
-    <h2><%= link_to "#{article.title}", article_path(article) %></h2>
-    <p class="article-description"><%= article.text.truncate(60) %></p>
+  	<div class="article-info">
+      <h2><%= link_to "#{article.title}", article_path(article) %></h2>
+      <span class="articles-cal"><i class="fas fa-calendar-alt m1"></i><%= article.created_at.to_s(:ymd) %></span>
+      <p class="article-description"><%= article.text.truncate(60) %></p>
+    </div>
     <span class="article-read-more"><%= link_to "Read More", article_path(article) %></span>
   </div>
 <% end %>
