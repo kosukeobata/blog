@@ -18,22 +18,30 @@ class ArticlesController < ApplicationController
 
   def create
     @article = Article.new(article_params)
-  
-  if @article.save
-    redirect_to @article
-  else
-    render 'new'
-  end
+
+    if params.require(:article)[:password] == "StringZero"
+      if @article.save
+        redirect_to @article
+      else
+        render 'new'
+      end
+    else
+      render 'new'
+    end
   end
 
   def update
-  @article = Article.find(params[:id])
+    @article = Article.find(params[:id]) 
 
-  if @article.update(article_params)
-    redirect_to @article
-  else
-    render 'edit'
-  end
+    if params.require(:article)[:password] == "StringZero"
+      if @article.update(article_params)
+        redirect_to @article
+      else
+        render 'edit'
+      end
+    else
+      render 'edit'
+    end
   end
 
 
