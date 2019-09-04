@@ -79,3 +79,6 @@ gem 'bootstrap-will_paginate'
 
 # GoogleAnalytics
 gem 'google-analytics-rails'
+
+# SiteMap
+gem 'sitemap_generator'
