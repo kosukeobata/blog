@@ -82,3 +82,7 @@ gem 'google-analytics-rails'
 
 # SiteMap
 gem 'sitemap_generator'
+
+# whatever
+gem 'whenever', require: false
+gem 'roboto'
