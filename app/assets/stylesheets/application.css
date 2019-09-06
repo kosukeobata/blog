@@ -36,11 +36,26 @@
 	color: white;
 }
 
-.main-container {
-	width: 60%;
-	/*text-align: center;*/
-	margin: auto;
+@media screen and (max-width:420px){
+  .main-container {
+  	width: 95%;
+  	margin: auto;
+  }
 }
+
+@media screen and (max-width:1025px){
+  .main-container {
+  	width: 85%;
+  	margin: auto;
+  }
+}
+
+@media screen and (min-width:1025px){
+   .main-container {
+   	width: 60%;
+   	margin: auto;
+   }
+ }
 
 .footer {
 	text-align: center;
@@ -51,11 +66,21 @@ body {
 	margin: unset;
 }
 
-h2 {
-  color: #364e96;/*文字色*/
-  margin: unset;
+@media screen and (max-width:420px){
+  h2 {
+    color: #364e96;/*文字色*/
+		font-size: 1.4em;
+    line-height: 1.3em;
+    margin: unset;
+  }
 }
 
+@media screen and (min-width:421px){
+  h2 {
+    color: #364e96;/*文字色*/
+    margin: unset;
+  }
+}
 
 p {
 	color: #707070;
