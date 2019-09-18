@@ -1,6 +1,11 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
+  # Redirect
+  config.middleware.use Rack::HostRedirect, {
+  'katsuobushi.herokuapp.com' => 'www.katsuobushi.work'
+  }
+
   # Code is not reloaded between requests.
   config.cache_classes = true
 

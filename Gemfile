@@ -86,3 +86,6 @@ gem 'sitemap_generator'
 # whatever
 gem 'whenever', require: false
 gem 'roboto'
+
+# URL redirect
+gem 'rack-host-redirect'
