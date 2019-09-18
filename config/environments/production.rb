@@ -4,6 +4,7 @@ Rails.application.configure do
   # Redirect
   config.middleware.use Rack::HostRedirect, {
   'katsuobushi.herokuapp.com' => 'www.katsuobushi.work'
+  'katsuobushi.work' => 'www.katsuobushi.work'
   }
 
   # Code is not reloaded between requests.
