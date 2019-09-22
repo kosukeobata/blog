@@ -1,1 +1,1 @@
-Sitemap: https://katsuobushi.work/sitemap.xml.gz
+Sitemap: https://www.katsuobushi.work/sitemap.xml.gz
