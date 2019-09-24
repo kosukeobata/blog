@@ -1,24 +1,30 @@
-# README
+# Railsでブログを作るリポジトリです。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Webサイトはこちら。
+https://www.katsuobushi.work
 
-Things you may want to cover:
+## 概要
+Railsのチュートリアルで作成した投稿機能を改善していきます。
+その過程を公開することで、どの様にサイト改善をしていけばいいのかを学ぶことができます。
 
-* Ruby version
+まずはこちらのRailsガイドから基本的な記事の投稿までを作成してみてください。
+https://railsguides.jp/getting_started.html
 
-* System dependencies
+ガイドの5まで出来たら、上記のWebサイトにアクセスしてください。
+ブログの改善の仕方を学ぶことができます。
 
-* Configuration
+## 目的
+「どの様にサービスを改善していけばいいのかが理解できる」状態になることをゴールにしています。
+IT業界に関わる人がWebサービスの改善を知ることで、様々なシーンで役立つことになると考えています。
+このブログやGitHubを読み進めていけばWebサービスの改善が理解でき、今後のキャリアに役立つことになれば幸いです。
 
-* Database creation
+なので目的は「Webサービスに携わる人のキャリアを支援する」ことです。
+そうすればより生産性高く、そして楽しい仕事ができるのではないかと考えています。
 
-* Database initialization
+## 読者のターゲット
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+エンジニアリングをしてみたい人向けです。
+* これからエンジニアを目指す人
+* エンジニア採用の為に最低限の知識をつけたい人
+* ちょっとしたサービスを作ってみたい人
+* エンジニア向けの商品やIT系サービスのセールスを行なっている営業
