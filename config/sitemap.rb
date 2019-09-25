@@ -1,5 +1,5 @@
 # Set the host name for URL creation
-SitemapGenerator::Sitemap.default_host = "https://katsuobushi.herokuapp.com/"
+SitemapGenerator::Sitemap.default_host = "https://www.katsuobushi.work"
 
 SitemapGenerator::Sitemap.create do
 

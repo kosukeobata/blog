@@ -23,7 +23,8 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
-gem 'ffi', '= 1.9.21'
+# gem 'ffi', '= 1.9.21'
+gem "ffi", ">= 1.9.24"
 
 # change Japanese
 gem 'rails-i18n'

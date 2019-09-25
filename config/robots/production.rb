@@ -1,1 +1,1 @@
-Sitemap: https://katsuobushi.herokuapp.com/sitemap.xml.gz
+Sitemap: https://www.katsuobushi.work/sitemap.xml.gz
