@@ -1,7 +1,7 @@
 # Railsでブログを作るリポジトリです。
 
 Webサイトはこちら。
-https://www.katsuobushi.work
+[https://www.katsuobushi.work](https://www.katsuobushi.work/?utm_source=github&utm_medium=page&utm_campaign=github_readme)
 
 ## 概要
 Railsのチュートリアルで作成した投稿機能を改善していきます。
