@@ -104,6 +104,10 @@ ul li {
   transition: transform 0.18s ease-out;
 }
 
+.prettyprint ol.linenums > li {
+  list-style-type: decimal;
+}
+
 .input:focus + .underline {
     transform: scaleX(1);
   }
